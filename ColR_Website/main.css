@@ -1,0 +1,502 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+
+}
+
+body {
+	min-height: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: absolute;
+}
+
+
+
+header {
+	margin: 0;
+	background: #dfcb8f;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 2;
+}
+
+header nav {
+	width: 100%;
+	position: relative;
+
+}
+
+header nav ul {
+	text-align: center;
+
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline-block;
+	height: 70px;
+	padding-top: 23.5px;
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: helvetica;
+	color: white;
+	padding: 0px 10px;
+	cursor: pointer;
+	position: relative;
+}
+
+header nav ul li:hover{
+	background: #ad9b65;
+	transition: 1s;
+	border-radius: 20px;
+
+}
+
+header nav p {
+	display: none;
+}
+
+
+header .logo {
+	color: #c98a8c;
+	font-size: 15px;
+	font-family: helvetica;
+	margin-top: 1px;
+	margin-left: 164.5px;
+	position: absolute;
+
+}
+
+.first {
+	margin-top: 50px;
+	background-color: #f9d2bd;
+	padding: 40px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.first p {
+	color: #939393;
+	font-size: 30px;
+	text-align: left;
+	width: 100%;
+	position: relative;
+}
+
+/*.second {
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+	background: url(https://s3-us-west-2.amazonaws.com/dukewired/wp-content/uploads/2017/10/27110510/2017-website-filler.png);
+	background-repeat: no-repeat
+	background-position: center;
+	background-size: cover;
+}
+
+.secondslide {
+	width: 900px;
+	height: 600px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+.secondslide figure{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	left: 0;
+	animation: slide 6s infinite;
+}
+
+.secondslide img {
+	width: 900px;
+	height: 600px;
+
+
+}
+
+*/
+footer {
+	margin-top: auto;
+	background-color : #c8d0d2;
+	width: 100%;
+	height: 75px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	height: 70px;
+	padding-top: 30px;
+	
+}
+
+footer ul li a { 
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: helvetica;
+	color: black;
+	padding: 0px 12px;
+ }
+
+footer ul li a:hover {
+	color: #464646;
+	cursor: pointer;
+
+}
+
+footer .logo {
+	color: #c98a8c;
+	font-size: 15px;
+	font-family: helvetica;
+	margin-top: 1px;
+	margin-left: 164.5px;
+	position: absolute;
+}
+
+footer p {
+	padding-top: 15px;
+	margin-left: 134px;
+	position: absolute;
+	font-size: 10px;
+}
+
+.sign-up-form {
+	height: 250px;
+	width: 220px;
+	border-radius: 8px;
+	text-align: center;
+	position: static;
+	top: 120px;
+	background-color: white;
+	z-index: 1;
+}
+
+.input-box {
+	background-color: white;
+	height : 30px;
+	width: 80%;
+	border: solid 1px #cccc;
+	border-radius: 4px;
+	padding-left: 16px;
+	margin-bottom: 5px;
+}
+
+.input-box:focus {
+	border: solid 1px #86484a;
+}
+
+
+.submit {
+	font-family: helvetica;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #c98a8c;
+	height: 40px;
+	width: 70%;
+	font-weight: bold;
+	color: white;
+	margin-top: 4px;
+	border: none;
+
+}
+
+.submit:hover {
+	background-color: #86484a;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.sign-up-form h3 {
+	margin-top: 20px;
+	position: relative;
+	color: white;
+	font-family: helvetica;
+}
+
+.form-top-dec {
+	height: 60px;
+	width: 100%;
+	background-color: #dfcb8f;
+	position: absolute;
+
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+
+}
+
+body {
+	min-height: 100%;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	position: absolute;
+}
+
+
+
+header {
+	margin: 0;
+	background: #dfcb8f;
+	width: 100%;
+	height: 70px;
+	position: fixed;
+	z-index: 2;
+}
+
+header nav {
+
+
+}
+
+header nav ul {
+	float: right;
+	margin-right: 60px;
+
+}
+
+header nav ul li {
+	list-style: none;
+	display: inline-block;
+	height: 70px;
+	padding-top: 17.5px;
+
+}
+
+header nav ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: helvetica;
+	color: white;
+	padding: 0px 50px;
+	cursor: pointer;
+	position: relative;
+}
+
+header nav ul li:hover{
+	background: #ad9b65;
+	transition: 1s;
+	border-radius: 20px;
+
+}
+
+header nav p {
+	margin-left: 240px;
+	padding-top: 40px;
+	position: absolute;
+	font-family: helvetica;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	display: block;
+}
+
+header .logo {
+	color: #c98a8c;
+	font-size: 50px;
+	margin-left: 100px;
+	font-family: helvetica;
+	margin-top: 7px;
+	position: absolute;
+
+}
+
+.first {
+	background-color: #f9d2bd;
+	width: 100%;
+	padding: 300px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	
+}
+.first p {
+	color: #939393;
+	font-size: 40px;
+	text-align: left;
+	width: 60%;
+}
+
+/*.second {
+	width: 100%;
+	padding: 100px 0px;
+	position: relative;
+	background: url(https://s3-us-west-2.amazonaws.com/dukewired/wp-content/uploads/2017/10/27110510/2017-website-filler.png);
+	background-repeat: no-repeat
+	background-position: center;
+	background-size: cover;
+}
+
+.secondslide {
+	width: 900px;
+	height: 600px;
+	border: 1px solid black;
+	margin-left: auto;
+	margin-right:auto;
+	overflow: hidden;
+}
+.secondslide figure{
+	position: relative;
+	width: 100%;
+	margin: 0;
+	left: 0;
+	animation: slide 6s infinite;
+}
+
+.secondslide img {
+	width: 900px;
+	height: 600px;
+
+
+}
+
+*/
+footer {
+	margin-top: auto;
+	background-color : #c8d0d2;
+	width: 100%;
+	height: 150px;
+}
+
+footer ul {
+	text-align: center;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding-top: 70px;
+	padding-right: 50px;
+	
+}
+
+footer ul li a { 
+	font-size: 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: helvetica;
+	color: black;
+ }
+
+footer ul li a:hover {
+	color: #464646;
+	cursor: pointer;
+
+}
+
+footer .logo {
+	color: #c98a8c;
+	margin-left: 100px;
+	font-size: 50px;
+	position: absolute;
+	font-family: helvetica;
+	margin-top: 7px;
+}
+
+footer p {
+	padding-top: 60px;
+	margin-left: 105px;
+	position: absolute;
+}
+
+.sign-up-form {
+	height: 330px;
+	width: 300px;
+	border-radius: 8px;
+	left: 1450px;
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	background-color: white;
+	z-index: 1;
+}
+
+.input-box {
+	background-color: white;
+	height : 40px;
+	width: 80%;
+	border: solid 1px #cccc;
+	border-radius: 4px;
+	padding-left: 16px;
+	margin-bottom: 5px;
+}
+
+.input-box:focus {
+	border: solid 1px #86484a;
+}
+
+
+.submit {
+	font-family: helvetica;
+	font-size: 20px;
+	border-radius: 8px;
+	background-color: #c98a8c;
+	height: 50px;
+	width: 80%;
+	font-weight: bold;
+	color: white;
+	margin-top: 20px;
+	border: none;
+
+}
+
+.submit:hover {
+	background-color: #86484a;
+	transition: .5s;
+	cursor: pointer;
+}
+
+.sign-up-form h3 {
+	margin-top: 20px;
+	position: relative;
+	color: white;
+	font-family: helvetica;
+}
+
+.form-top-dec {
+	height: 60px;
+	width: 100%;
+	background-color: #dfcb8f;
+	position: absolute;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+}
+}
